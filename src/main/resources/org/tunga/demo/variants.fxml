@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.tunga.demo.VariantController">
+    <Label fx:id="topicLabel" text="Выбранная тема:" textAlignment="CENTER" />
+    <ListView fx:id="variantsListView" />
+</VBox>
